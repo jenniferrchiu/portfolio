@@ -1,19 +1,22 @@
 <template>
     <div>
-        <script src="https://kit.fontawesome.com/a866f90196.js" crossorigin="anonymous"></script>
+       <!-- <script src="https://kit.fontawesome.com/a866f90196.js" crossorigin="anonymous"></script>-->
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
 
         <h1>Jennifer Chiu</h1>
 
         <h2>Hello!</h2>
-        <!--this is how you make comments-->
         <p>
-            I am a student and storyteller at Columbia University studying computer
+            I'm a student and storyteller at Columbia University studying computer
             science and linguistics.
         </p>
 
         <p>
-            <i class="fa-solid fa-heart"></i> language learning, crochet, design, nostalgia
+            <i class="fa-solid fa-lightbulb"></i> Korean, Cantonese, Java, HTML, CSS, Excel, Figma, InDesign, Photoshop
+        </p>
+
+        <p>
+            <i class="fa-solid fa-heart"></i> language learning, crochet, design, nostalgia, urban exploration
         </p>
 
         <p id="icons">
@@ -31,3 +34,15 @@
        font-family: 'IBM Plex Sans', sans-serif;
     }
 </style>
+
+<script>
+    export default{
+        head(){
+            return{
+                script: [
+                    {src: 'https://kit.fontawesome.com/a866f90196.js', crossorigin: 'anonymous'}
+                ]
+            }
+        }
+    }
+</script>

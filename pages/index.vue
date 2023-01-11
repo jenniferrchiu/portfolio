@@ -3,7 +3,7 @@
     <div>
       <Header/>
     </div>
-    <div>
+    <div style ="flex: 0 0 400px; margin-top:10px">
       <Home/>
     </div>
   </div>
@@ -18,7 +18,7 @@
   }
   .box {
     display:flex;
-    
+    column-gap:5em;
   }
 </style>
 

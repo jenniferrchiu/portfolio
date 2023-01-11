@@ -1,45 +1,63 @@
 <template>
     <div>
-        <h2><i class="material-icons">playlist_play</i> Current Playing...</h2>
+        <h2><i class="fas fa-record-vinyl"></i> Current Playing...</h2>
         <p>
-            Learning Korean, 
+            Learning Korean, planning Columbia University's DevFest, researching syntax
         </p>
         <h2><i class="material-icons">playlist_play</i> Experience</h2>
-            <ul>
-                <li>Studied in Seoul, South Korea through a fully-paid merit scholarship from the National
-                    Language Security Initiative, run by the US Department of State.</li>
-                <li></li>
-            </ul>
+                <ul>
+                    <div class="backgroundhover"><li>Committee member for DevFest, Columbia University's
+                        spring hackathon, hosted by Application Development Initiative (ADI)</li> </div>
+                    <div class="backgroundhover"><li>Founding team member at Inlet <a href="https://inlet.space">
+                        (x)</a>, a multimedia collage-based moodboard making app</li></div>
+                    <div class="backgroundhover"><li>Studied in Seoul, South Korea for 7 weeks through a
+                        fully-funded merit scholarship from the National Language Security Initiative (NSLI-Y),
+                        run by the US State Department.</li></div>
+                </ul>
         <h2><i class="material-icons">playlist_play</i> Projects</h2>
+            <p>
+                Coming soon!
+            </p>
         <h2><i class="material-icons">playlist_play</i> Writing</h2>
-            <ul class="fa-ul">
-                <li><span class="fa-li"><i class="fas fa-play"></i></span>
-                    "Heritage Unwound," Rust + Moth <a href="https://rustandmoth.com/work/heritage-unwound/">(x)</a>
-                </li>
-                <li><span class="fa-li"><i class="fas fa-play"></i></span>
-                    "Maps," Pidgeonholes <a href="http://pidgeonholes.com/2021/03/maps/">(x)</a>
-                </li>
-                <li><span class="fa-li"><i class="fas fa-play"></i></span>
-                    "Time Lapse," wildness <a href="https://readwildness.com/26/chiu-time">(x)</a>
-                </li>
-                <li><span class="fa-li"><i class="fas fa-play"></i></span>
-                    "Supermarket Peaches," Hobart Pulp <a href="https://www.hobartpulp.com/web_features/crunchy-peaches">(x)</a></li>
-                    <li><span class="fa-li"><i class="fas fa-play"></i></span>
-                    [sub]liminal Magazine <a href="https://readsubliminal.wixsite.com/readsubliminal">(x)</a>
-                </li>
-                <li><span class="fa-li"><i class="fas fa-play"></i></span>
-                    Dishsoap Quarterly <a href="https://dishsoapquarterly.com">(x)</a>
-                </li>
+            <ul>
+                <div class="backgroundhover">
+                    <li>"Heritage Unwound," Rust + Moth <a href="https://rustandmoth.com/work/heritage-unwound/">(x)</a></li>
+                </div>
+                <div class="backgroundhover"><li>"Maps," Pidgeonholes <a href="http://pidgeonholes.com/2021/03/maps/">(x)</a></li></div>
+                <div class="backgroundhover">
+                    <li>"Time Lapse," wildness <a href="https://readwildness.com/26/chiu-time">(x)</a></li>
+                </div>
+                <div class="backgroundhover">
+                    <li>"Supermarket Peaches," Hobart Pulp <a href="https://www.hobartpulp.com/web_features/crunchy-peaches">(x)</a></li>
+                </div>
+                <div class="backgroundhover">
+                    <li>editor at [sub]liminal Magazine <a href="https://readsubliminal.wixsite.com/readsubliminal">(x)</a></li>
+                </div>
+                <div class="backgroundhover">
+                    <li>editor at Dishsoap Quarterly <a href="https://dishsoapquarterly.com">(x)</a></li>
+                </div>
             </ul>
         <h2><i class="material-icons">playlist_play</i> Recognition</h2>
             <ul>
-                <li>4x National Gold Medalist @ Scholastic Art and Writing (Best Teen Writing 2020)</li>
-                <li>4x YoungArts Winner in Writing (2022 Finalist Short Story, 2022 Honorable Mentioon Creative)</li>
+                <div class="backgroundhover">
+                    <li>4x National Gold Medalist @ Scholastic Art and Writing (Best Teen Writing 2020)</li>
+                </div>
+                <div class="backgroundhover">
+                    <li>4x YoungArts Winner in Writing (2022 Finalist in Short Story, 2022 Honorable Mention in Creative Nonfiction,
+                        2022 Merit Winner in Poetry, 2021 Merit Winner in Short Story)</li>
+                </div>
             </ul>
     </div>
 </template>
 
 <style>
+    .backgroundhover{
+        margin-left: -40px;
+        padding-left: 40px;
+    }
+    .backgroundhover:hover{
+        background-color:#818da8;
+    }
     body {
         background-color:#737C91;
         color:#DED1C6;
@@ -50,6 +68,7 @@
     h2 {
         font-family:"IBM Plex Sans",sans-serif;
         font-size:20px;
+        margin-bottom:-3px;
     }
 
     a, a:visited {
@@ -57,17 +76,35 @@
         text-decoration:none;
     }
 
-    a:hover, a:hover {
+    a:hover {
         color:#9bcdbb;
+        text-decoration: underline;
     }
     #icons {
         font-size:30px;
+        text-decoration: none;
     }
 
-    ul {
-
+    li {
+        list-style-type: decimal;
+        padding-top: 3px;
+        padding-bottom: 3px;
+        margin-left:-8px;
     }
-    ul li:hover{
-        background-color:#818da8;
+
+    li:hover{
+        list-style-type:none;
+    }
+
+    li:hover:before {
+        float: left;
+        margin-left: -28px;
+        content: "\f04b";
+        font-family: "Font Awesome 5 Free";
+        padding-right:10px;
+    }
+
+    i {
+        vertical-align: middle;
     }
 </style>
