@@ -1,6 +1,6 @@
 <template>
   <div class="box">
-    <div>
+    <div id="sticky">
       <Header/>
     </div>
     <div style ="flex: 0 0 400px; margin-top:10px">
@@ -19,6 +19,12 @@
   .box {
     display:flex;
     column-gap:5em;
+  }
+
+  #sticky {
+    position: sticky;
+    top: 0;
+    align-self: flex-start; /* <-- this is the fix */
   }
 </style>
 
