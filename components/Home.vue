@@ -85,6 +85,10 @@
         text-decoration: none;
     }
 
+    #icons:hover {
+        text-decoration: none;
+    }
+
     li {
         list-style-type: decimal;
         padding-top: 3px;
