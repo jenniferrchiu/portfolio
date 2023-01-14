@@ -2,16 +2,19 @@
     <div>
         <h2><i class="fas fa-record-vinyl"></i> Current Playing...</h2>
         <p>
-            Learning Korean, planning Columbia University's DevFest, researching syntax
+            Learning Korean, planning Columbia University's DevFest, researching Cantonese linguistics
         </p>
         <h2><i class="material-icons">playlist_play</i> Experience</h2>
                 <ul>
-                    <div class="backgroundhover"><li>Committee member for DevFest, Columbia University's
+                    <div class="backgroundhover"><li>Committee member for <span style="background-color: #4c7c7f">DevFest</span>, Columbia University's
                         spring hackathon, hosted by Application Development Initiative (ADI)</li> </div>
-                    <div class="backgroundhover"><li>Founding team member at Inlet <a href="https://inlet.space">
+                    <div class="backgroundhover"><li>Founding team member at <span style="background-color: #4c7c7f">Inlet</span> <a href="https://inlet.space">
                         (x)</a>, a multimedia collage-based moodboard making app</li></div>
+                    <div class="backgroundhover"><li>Short Story Finalist during <span style="background-color: #4c7c7f">National YoungArts Week</span>,
+                        an intensive week-long program where I learned under master artists and collaborated
+                        with peers through discussions, workshops, and interdisciplinary classes.</li></div>
                     <div class="backgroundhover"><li>Studied in Seoul, South Korea for 7 weeks through a
-                        fully-funded merit scholarship from the National Language Security Initiative (NSLI-Y),
+                        fully-funded merit scholarship from the <span style="background-color: #4c7c7f">National Language Security Initiative (NSLI-Y)</span>,
                         run by the US State Department.</li></div>
                 </ul>
         <h2><i class="material-icons">playlist_play</i> Projects</h2>
@@ -56,7 +59,7 @@
         padding-left: 40px;
     }
     .backgroundhover:hover{
-        background-color:#818a9c/*#818da8*/;
+        background-color:#818a9c;
     }
     body {
         background-color:#737C91;

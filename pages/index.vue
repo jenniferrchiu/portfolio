@@ -3,7 +3,7 @@
     <div id="sticky" style="flex: 0 0 18vw">
       <Header/>
     </div>
-    <div style ="flex: 0 0 30w; margin-top:1.5em;margin-bottom:10vh;">
+    <div style ="flex: 0 0 30w; margin-top:1.5em;;">
       <Home/>
     </div>
   </div>
@@ -11,8 +11,8 @@
 
 <style>
   body {
-    /*margin-top: 20vh;*/
-    padding-top:0px;
+    margin-top: 20vh;
+    margin-bottom:20vh;
     margin-left: 25vw;
     margin-right: 25vw;
   }

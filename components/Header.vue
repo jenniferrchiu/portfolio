@@ -21,6 +21,10 @@
             <i class="fa-solid fa-heart"></i> language learning, crochet, design, nostalgia, urban exploration
         </p>
 
+        <!--<p>
+            <i class="fa-solid fa-envelope"><a href= "mailto:jennifer.chiu@columbia.edu"></a></i>
+        </p>-->
+
         <p id="icons">
             <a href="https://github.com/jenniferrchiu" class="fa-brands fa-github"></a>
             <a href="https://www.linkedin.com/in/jennifer-chiu-a9b29122b/" class="fa-brands fa-linkedin"></a>
@@ -30,9 +34,7 @@
 </template>
 
 <style>
-    /*@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&family=IBM+Plex+Sans&display=swap');*/
     h1 {
-        margin-top:0px;
         font-size:36px; 
         font-family: 'IBM Plex Sans', sans-serif;
     }
