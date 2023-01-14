@@ -86,6 +86,7 @@
     #icons {
         font-size:30px;
         text-decoration: none;
+        vertical-align:middle;
     }
 
     li {

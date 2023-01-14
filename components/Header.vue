@@ -21,14 +21,11 @@
             <i class="fa-solid fa-heart"></i> language learning, crochet, design, nostalgia, urban exploration
         </p>
 
-        <!--<p>
-            <i class="fa-solid fa-envelope"><a href= "mailto:jennifer.chiu@columbia.edu"></a></i>
-        </p>-->
-
         <p id="icons">
             <a href="https://github.com/jenniferrchiu" class="fa-brands fa-github"></a>
             <a href="https://www.linkedin.com/in/jennifer-chiu-a9b29122b/" class="fa-brands fa-linkedin"></a>
             <a href="https://open.spotify.com/user/gzat0l69l6uw6941u2hskrv78?si=54d06867daf241c1" class="fa-brands fa-spotify"></a>
+            <a href= "mailto:jennifer.chiu@columbia.edu"><i class="fa-solid fa-envelope"></i></a>
         </p>
     </div>
 </template>
