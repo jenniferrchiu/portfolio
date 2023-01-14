@@ -56,7 +56,7 @@
         padding-left: 40px;
     }
     .backgroundhover:hover{
-        background-color:#818da8;
+        background-color:#818a9c/*#818da8*/;
     }
     body {
         background-color:#737C91;
@@ -85,10 +85,6 @@
         text-decoration: none;
     }
 
-    #icons:hover {
-        text-decoration: none;
-    }
-
     li {
         list-style-type: decimal;
         padding-top: 3px;
@@ -110,5 +106,9 @@
 
     i {
         vertical-align: middle;
+    }
+
+    ::selection {
+        background:#84b0ab;
     }
 </style>

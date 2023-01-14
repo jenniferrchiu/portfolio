@@ -1,9 +1,9 @@
 <template>
   <div class="box">
-    <div id="sticky">
+    <div id="sticky" style="flex: 0 0 18vw">
       <Header/>
     </div>
-    <div style ="flex: 0 0 400px; margin-top:10px">
+    <div style ="flex: 0 0 30w; margin-top:1.5em;margin-bottom:10vh;">
       <Home/>
     </div>
   </div>
@@ -11,20 +11,23 @@
 
 <style>
   body {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-left: 300px;
-    margin-right: 300px;
+    /*margin-top: 20vh;*/
+    padding-top:0px;
+    margin-left: 25vw;
+    margin-right: 25vw;
   }
   .box {
     display:flex;
     column-gap:5em;
+    margin-top:0px;
+    padding-top:0px;
   }
 
   #sticky {
+    position:-webkit-sticky;
     position: sticky;
     top: 0;
-    align-self: flex-start; /* <-- this is the fix */
+    align-self: flex-start;
   }
 </style>
 
